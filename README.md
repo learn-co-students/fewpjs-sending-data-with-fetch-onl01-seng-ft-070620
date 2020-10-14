@@ -1,6 +1,6 @@
 # Sending Data with Fetch
 
-## Learning Goals
+## Learning Goals 
 
 - Use `fetch()` to send data to a remote host
 - Handle the response from a successful request
@@ -371,16 +371,15 @@ let configObj = {
 };
 
 fetch("http://localhost:3000/dogs", configObj)
-  .then(function(response) {
+.then(function(response) {
     return response.json();
-  })
-  .then(function(object) {
+})
+.then(function(object) {
     console.log(object);
-  })
-  .catch(function(error) {
-    alert("Bad things! Ragnarők!");
+})
+.catch(function(error) {
     console.log(error.message);
-  });
+});
 ```
 
 Sent to our JSON server from a page like `index.html`, we would receive an
