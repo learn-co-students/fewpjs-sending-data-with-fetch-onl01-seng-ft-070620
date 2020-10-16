@@ -9,27 +9,6 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
-    },
-    {
-      "dogName": "River",
-      "dogBreed": "Border Collie",
-      "submit": "Submit",
-      "id": 3
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "id": 4
-    },
-    {
-      "dogName": "Ike",
-      "dogBreed": "Whippet",
-      "id": 5
-    },
-    {
-      "dogName": "Wolfie",
-      "dogBreed": "Husky",
-      "id": 6
     }
   ],
   "cats": [
@@ -44,13 +23,7 @@
       "id": 2
     }
   ],
-  "users": [
-    {
-      "name": "Sarah",
-      "email": "as;ldkjf@asd;kljf.com",
-      "id": 1
-    }
-  ],
+  "users": [],
   "robots": [
     {
       "robotName": "C8-09S100K",
